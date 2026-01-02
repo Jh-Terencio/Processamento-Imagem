@@ -1,0 +1,7 @@
+Olá Professor! Espero que esteja se recuperando.
+
+Estou escrevendo esse TXT só para explicar a ordem de execução do arquivos.
+
+1. Primeiro deverá ser executado o 1_preprocess_mias, onde foi feito um pré processamento das mamografias
+2. Em seguida deverá executar o 2_equalize_mias_png, onde é feita a equalização das imagens
+3. Por fim deverá ser executado o 3_mias_patches_cnn, onde fizemos o modelo com o intuito de prever os tipos de câncer de mama
